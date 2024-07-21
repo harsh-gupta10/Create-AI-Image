@@ -51,7 +51,7 @@ This implementation follows the architecture described in the DCGAN paper, using
 ![DCGAN Output](./Number%20Genrator/WGAN1.png)
 
 &nbsp;
-*Figure : Generated handwritten digits using Wasserstein GAN (DCAN), showcasing diverse and clear digit forms.*
+*Generated handwritten digits using  DCGAN, showcasing diverse and clear digit forms.*
 &nbsp;
 &nbsp;
 
@@ -59,7 +59,7 @@ This implementation follows the architecture described in the DCGAN paper, using
 ![DCGAN Output](./Number%20Genrator/WGAN2.png)
 
 &nbsp;
-*Figure : Another set of DCAN-generated digits, demonstrating the model's consistency in producing varied, realistic handwritten numbers.*
+*Another set of DCGAN-generated digits, demonstrating the model's consistency in producing varied, realistic handwritten numbers.*
 &nbsp;
 &nbsp;
 <!-- ![DCGAN Output](./Number%20Genrator/DCGAN.png) -->
@@ -101,7 +101,7 @@ This implementation allows for the automatic creation of map-style images from s
 &nbsp;
 ![DCGAN Output](./Pix2pix/result3.png)
 &nbsp;
-*Figure : Pix2Pix transformation of satellite imagery to map-style images. Left: Input satellite image, Middle: Ground Truth, Right: Genrated Map.*
+*Pix2Pix transformation of satellite imagery to map-style images. Left: Input satellite image, Middle: Ground Truth, Right: Genrated Map.*
 
 &nbsp;
 &nbsp;
@@ -155,7 +155,7 @@ This implementation uses a pre-trained model from the official GFP-GAN GitHub re
 &nbsp;
 &nbsp;
 &nbsp;
-*Figure : GFP-GAN restoration of an old portrait, dramatically improving clarity and detail.*
+*GFP-GAN restoration of an old portrait, dramatically improving clarity and detail.*
 
 
 
@@ -163,7 +163,7 @@ This implementation uses a pre-trained model from the official GFP-GAN GitHub re
 ![DCGAN Output](./GFP-GANPhotoRestoration/test/2.jpeg)
 &nbsp;
 
-*Figure : Original damaged and low-quality historical photo before restoration.*
+*Original damaged and low-quality historical photo before restoration.*
 
 &nbsp;
 &nbsp;
@@ -171,7 +171,7 @@ This implementation uses a pre-trained model from the official GFP-GAN GitHub re
 #### GENRATED
 ![DCGAN Output](./GFP-GANPhotoRestoration/results/restored_imgs/2.jpeg)
 &nbsp;
-*Figure : GFP-GAN restored version of the historical photo, showing significant improvements in clarity, detail, and overall quality.*
+*GFP-GAN restored version of the historical photo, showing significant improvements in clarity, detail, and overall quality.*
 
 &nbsp;
 &nbsp;
