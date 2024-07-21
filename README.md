@@ -49,11 +49,17 @@ How it works:
 This implementation follows the architecture described in the DCGAN paper, using convolutional and transposed convolutional layers.
 
 ![DCGAN Output](./Number%20Genrator/WGAN1.png)
+
+&nbsp;
+*Figure : Generated handwritten digits using Wasserstein GAN (DCAN), showcasing diverse and clear digit forms.*
 &nbsp;
 &nbsp;
-&nbsp;
+
+
 ![DCGAN Output](./Number%20Genrator/WGAN2.png)
+
 &nbsp;
+*Figure : Another set of DCAN-generated digits, demonstrating the model's consistency in producing varied, realistic handwritten numbers.*
 &nbsp;
 &nbsp;
 <!-- ![DCGAN Output](./Number%20Genrator/DCGAN.png) -->
@@ -95,15 +101,19 @@ This implementation allows for the automatic creation of map-style images from s
 &nbsp;
 ![DCGAN Output](./Pix2pix/result3.png)
 &nbsp;
+*Figure : Pix2Pix transformation of satellite imagery to map-style images. Left: Input satellite image, Middle: Ground Truth, Right: Genrated Map.*
+
 &nbsp;
 &nbsp;
 ![DCGAN Output](./Pix2pix/result_pix2pix_step_0%20(1).png)
 &nbsp;
+*Epoch:- 1k*
 &nbsp;
 &nbsp;
 <!-- ![DCGAN Output](./Pix2pix/result_pix2pix_step_39000.png) -->
 ![DCGAN Output](./Pix2pix/Screenshot%20from%202024-07-11%2019-49-29.png)
 &nbsp;
+*Epoch:- 39k*
 &nbsp;
 &nbsp;
 <!-- ![DCGAN Output](./Pix2pix/Screenshot%20from%202024-07-11%2019-54-48.png) -->
@@ -145,17 +155,24 @@ This implementation uses a pre-trained model from the official GFP-GAN GitHub re
 &nbsp;
 &nbsp;
 &nbsp;
+*Figure : GFP-GAN restoration of an old portrait, dramatically improving clarity and detail.*
+
 
 
 ##### ORIGINAL
 ![DCGAN Output](./GFP-GANPhotoRestoration/test/2.jpeg)
 &nbsp;
+
+*Figure : Original damaged and low-quality historical photo before restoration.*
+
 &nbsp;
 &nbsp;
 
 #### GENRATED
 ![DCGAN Output](./GFP-GANPhotoRestoration/results/restored_imgs/2.jpeg)
 &nbsp;
+*Figure : GFP-GAN restored version of the historical photo, showing significant improvements in clarity, detail, and overall quality.*
+
 &nbsp;
 &nbsp;
 
@@ -196,6 +213,9 @@ This implementation allows for the realistic completion of images with missing o
 &nbsp;
 &nbsp;
 ![DCGAN Output](./Boundless/result4.png)
+
+*Figure 16: BoundLess image inpainting results. Left: Original image , Middle: Masked Image, Right: Genrated Image.*
+
 <!-- &nbsp;
 &nbsp;
 &nbsp;
@@ -222,10 +242,7 @@ How it works:
 4. During inference, it can generate natural language descriptions of new images.
 
 This implementation bridges computer vision and natural language processing, enabling automatic description of visual content.
-![DCGAN Output](./ImageCaptionGenrator/Results/)
-&nbsp;
-&nbsp;
-&nbsp;
+
 ![DCGAN Output](./ImageCaptionGenrator/Results/Screenshot%20from%202024-07-11%2020-45-56.png)
 &nbsp;
 &nbsp;
@@ -253,13 +270,9 @@ This implementation bridges computer vision and natural language processing, ena
 ![DCGAN Output](./ImageCaptionGenrator/Results/Screenshot%20from%202024-07-11%2020-47-38.png)
 
 
-## Demo
 
-A demo video showcasing the capabilities of this project is available [here](https://drive.google.com/drive/folders/1-ENucFn7FZIuYRgJYoygiwbuJRULnjxJ?usp=drive_link).
 
-## PPT
 
-A PPT showcasing the capabilities of this project is available [here](link_to_demo_video).
 
 ## Contributing
 
