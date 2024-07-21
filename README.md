@@ -159,22 +159,7 @@ This implementation uses a pre-trained model from the official GFP-GAN GitHub re
 
 
 
-##### ORIGINAL
-![DCGAN Output](./GFP-GANPhotoRestoration/test/2.jpeg)
-&nbsp;
 
-*Original damaged and low-quality historical photo before restoration.*
-
-&nbsp;
-&nbsp;
-
-#### GENRATED
-![DCGAN Output](./GFP-GANPhotoRestoration/results/restored_imgs/2.jpeg)
-&nbsp;
-*GFP-GAN restored version of the historical photo, showing significant improvements in clarity, detail, and overall quality.*
-
-&nbsp;
-&nbsp;
 
 
 
